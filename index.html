@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BabyNutri AI — Smart Nutrition Planner for Infants</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">🍼 BabyNutri<span>AI</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#related-work">Related Work</a></li>
+      <li><a href="#objectives">Objectives</a></li>
+      <li><a href="#results">Results</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#conclusion">Conclusion</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  </nav>
+
+  <!-- HOME -->
+  <section id="home" class="hero">
+    <div class="hero-bg-orb orb1"></div>
+    <div class="hero-bg-orb orb2"></div>
+    <div class="hero-bg-orb orb3"></div>
+    <div class="hero-content">
+      <div class="badge">B.E. Project · Electronics & Telecommunication · 2025-26</div>
+      <h1 class="hero-title">AI/ML-Based Smart<br/><em>Nutrition Planner</em><br/>for Babies</h1>
+      <p class="hero-subtitle">An intelligent, personalized dietary guidance system for infants aged 0–2 years, powered by machine learning and aligned with WHO growth standards.</p>
+      <div class="hero-team">
+        <span>Mandage Lokesh Sudeep</span>
+        <span class="dot">·</span>
+        <span>Bhadange Gayatri Somnath</span>
+        <span class="dot">·</span>
+        <span>Patil Eshan Gulabrao</span>
+      </div>
+      <div class="hero-guide">Guide: <strong>Dr. Ranjeet Kumar Pathak</strong> &nbsp;|&nbsp; GES's R.H. Sapat College of Engineering, Nashik</div>
+      <div class="hero-cta">
+        <a href="#introduction" class="btn-primary">Explore Project</a>
+        <a href="#results" class="btn-outline">View Results</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card">
+        <div class="hc-header">
+          <span class="hc-dot red"></span><span class="hc-dot yellow"></span><span class="hc-dot green"></span>
+          <span class="hc-title">Nutrition Dashboard</span>
+        </div>
+        <img src="images/app_screenshot.png" alt="App Screenshot" class="hero-img"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <section class="stats-bar">
+    <div class="stat"><span class="stat-num">0–2</span><span class="stat-label">Years Target Age</span></div>
+    <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Nutrients Tracked</span></div>
+    <div class="stat"><span class="stat-num">8</span><span class="stat-label">Neural Network Layers</span></div>
+    <div class="stat"><span class="stat-num">260K+</span><span class="stat-label">Model Parameters</span></div>
+    <div class="stat"><span class="stat-num">WHO</span><span class="stat-label">Growth Standards</span></div>
+  </section>
+
+  <!-- INTRODUCTION -->
+  <section id="introduction" class="section alt-bg">
+    <div class="container">
+      <div class="section-label">01 / Introduction</div>
+      <h2 class="section-title">Why Personalized<br/>Baby Nutrition Matters</h2>
+      <div class="two-col">
+        <div class="col-text">
+          <p>The first two years of a child's life — often called the <strong>"First 1,000 Days"</strong> — represent the single most critical window for physical growth, cognitive development, and immune system formation. Every meal, every feeding decision made during this period shapes a child's long-term health trajectory.</p>
+          <p>Yet millions of parents today still rely on generic nutrition charts and internet advice that fail to account for each baby's unique needs. Differences in weight, height, feeding method (breastfeeding, formula, or solids), allergies, medical history, and cultural dietary patterns mean that a one-size-fits-all approach often leads to imbalanced diets, nutrient deficiencies, or delayed developmental milestones.</p>
+          <p>This gap in personalized infant nutrition guidance is especially acute in rural and underserved communities, where access to pediatric nutrition experts is limited or entirely unavailable. Parents in these regions lack both the tools and expert guidance needed to make truly informed feeding decisions.</p>
+          <p>The <strong>AI/ML-Based Smart Nutrition Planner for Babies (0–2 Years)</strong> is designed precisely to bridge this gap. By combining Artificial Intelligence and Machine Learning with pediatric nutrition science and WHO growth standards, our platform delivers adaptive, evidence-based dietary recommendations that evolve dynamically with the child's growth — all accessible through a user-friendly web and mobile interface. This system empowers every parent, regardless of location or income level, to provide the very best nutritional care for their infant.</p>
+          <ul class="feature-list">
+            <li>✦ AI-driven personalized meal plans based on 7+ baby-specific parameters</li>
+            <li>✦ Real-time growth tracking against WHO percentile curves</li>
+            <li>✦ Early detection of nutrient deficiencies (iron, calcium, protein, vitamins)</li>
+            <li>✦ Cultural and regional food adaptation for local dietary practices</li>
+            <li>✦ Multilingual AI chatbot for instant parental queries and guidance</li>
+            <li>✦ Offline-capable design for areas with limited internet connectivity</li>
+            <li>✦ Integration with wearable sensors for real-time health monitoring</li>
+          </ul>
+        </div>
+        <div class="col-visual">
+          <div class="info-card">
+            <div class="ic-icon">🍼</div>
+            <div class="ic-title">Breastfeeding Phase</div>
+            <div class="ic-desc">0–6 months: exclusive breastfeeding with nutrient analysis and supplementation alerts</div>
+          </div>
+          <div class="info-card">
+            <div class="ic-icon">🥣</div>
+            <div class="ic-title">Complementary Foods</div>
+            <div class="ic-desc">6–12 months: AI-generated transition meal plans based on weight and allergen profile</div>
+          </div>
+          <div class="info-card">
+            <div class="ic-icon">🌱</div>
+            <div class="ic-title">Toddler Nutrition</div>
+            <div class="ic-desc">12–24 months: full dietary tracking with growth prediction and milestone monitoring</div>
+          </div>
+          <div class="info-card highlight-card">
+            <div class="ic-icon">🤖</div>
+            <div class="ic-title">AI Chatbot Support</div>
+            <div class="ic-desc">Instant, evidence-based answers to parental queries 24/7, powered by advanced NLP</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RELATED WORK -->
+  <section id="related-work" class="section dark-bg">
+    <div class="container">
+      <div class="section-label light">02 / Related Work</div>
+      <h2 class="section-title light">Literature Survey &<br/>Prior Research</h2>
+      <p class="section-intro light">Our project builds on a robust foundation of cutting-edge research in AI-driven nutrition, pediatric machine learning, and growth prediction. The following key studies informed our methodology, model architecture, and feature engineering decisions.</p>
+
+      <div class="paper-grid">
+        <div class="paper-card">
+          <div class="paper-year">2024</div>
+          <div class="paper-title">AI in Nutrition Research: A Scoping Review</div>
+          <div class="paper-authors">Sosa-Holwerda et al. — <em>Nutrients</em></div>
+          <p class="paper-desc">This comprehensive scoping review synthesizes AI and ML applications in dietary assessment and personalized nutrition. It identifies critical gaps in pediatric-specific models, directly justifying our infant-focused approach. Highlights challenges in data quality, model interpretability, and clinical validation that our project addresses through a curated dataset and explainable recommendations.</p>
+          <div class="paper-tag">Foundation Reference</div>
+        </div>
+        <div class="paper-card">
+          <div class="paper-year">2024</div>
+          <div class="paper-title">Predictors of Micronutrient Deficiency in Children 6–23 Months</div>
+          <div class="paper-authors">Gebeye, Dessie, Yimam — <em>Frontiers in Nutrition</em></div>
+          <p class="paper-desc">Applies Random Forest and XGBoost algorithms to national survey data from Ethiopia, identifying key predictors of iron and vitamin A deficiencies in infants. This study directly validated our choice of features — dietary diversity, feeding frequency, and socioeconomic factors — and benchmark ML algorithms used in our deficiency prediction module.</p>
+          <div class="paper-tag">Feature Engineering</div>
+        </div>
+        <div class="paper-card">
+          <div class="paper-year">2023</div>
+          <div class="paper-title">Predicting Postnatal Growth Failure with ML</div>
+          <div class="paper-authors">Yoon, Kim, Park et al. — <em>Diagnostics</em></div>
+          <p class="paper-desc">Develops and validates XGBoost-based models to predict postnatal growth failure in very low birth weight infants using perinatal clinical features. The study's methodology for time-sensitive growth prediction and feature selection informed our growth-tracking and deviation-alerting modules, particularly for early-life risk stratification.</p>
+          <div class="paper-tag">Growth Prediction</div>
+        </div>
+        <div class="paper-card">
+          <div class="paper-year">2024</div>
+          <div class="paper-title">ML to Fight Child Acute Malnutrition</div>
+          <div class="paper-authors">Sheikh et al. — <em>Nutrients, MDPI</em></div>
+          <p class="paper-desc">Trains ML models on outpatient malnutrition treatment program data to predict weight gain and treatment outcomes. The findings guided design of our early warning modules and helped identify which clinical and socio-demographic variables matter most in real treatment contexts — key insight for adaptive nutrition plan generation.</p>
+          <div class="paper-tag">Early Warning Systems</div>
+        </div>
+        <div class="paper-card">
+          <div class="paper-year">2024–25</div>
+          <div class="paper-title">LSTM-Based Undernutrition State Prediction</div>
+          <div class="paper-authors"><em>BioData Mining</em></div>
+          <p class="paper-desc">Uses LSTM with fully connected neural networks on longitudinal cohort data (Young Lives, Ethiopia) to model temporal transitions between nutritional states — normal, stunted, and wasted. This study strongly supports our use of deep learning for growth-trajectory prediction using repeated weight and height measurements over time.</p>
+          <div class="paper-tag">Deep Learning</div>
+        </div>
+        <div class="paper-card">
+          <div class="paper-year">2022</div>
+          <div class="paper-title">Machine Learning in Nutrition Research: A Practical Guide</div>
+          <div class="paper-authors">Kirk et al. — <em>Clinical Nutrition</em></div>
+          <p class="paper-desc">Provides essential methodological guidance for building reproducible, validated, and interpretable ML pipelines in nutrition research. This review shaped our entire ML development workflow — from data preprocessing and feature normalization to model selection, cross-validation, and explainability for parent-facing outputs.</p>
+          <div class="paper-tag">Methodology</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OBJECTIVES -->
+  <section id="objectives" class="section alt-bg">
+    <div class="container">
+      <div class="section-label">03 / Objectives</div>
+      <h2 class="section-title">Project Objectives &<br/>Problem Statement</h2>
+
+      <div class="problem-box">
+        <div class="pb-label">Problem Statement</div>
+        <p>The first two years of life represent a critical phase for a child's physical growth, cognitive development, and immune formation. However, most parents depend on generalized nutrition charts or internet-based advice that fail to consider each infant's unique profile — including growth patterns, feeding method, allergies, medical history, and cultural food preferences. Current nutrition tools provide static recommendations that do not adapt to these individual differences, resulting in unbalanced diets, nutrient deficiencies, and delayed developmental milestones. There is an urgent need for an intelligent system capable of predicting potential deficiencies, generating adaptive dietary plans in real time, and providing equitable expert guidance to parents in remote and underserved regions — all aligned with WHO pediatric standards.</p>
+      </div>
+
+      <div class="objectives-grid">
+        <div class="obj-card">
+          <div class="obj-num">01</div>
+          <h3>Personalized Nutrition Planning</h3>
+          <p>Develop an AI/ML engine that analyzes age, weight, height, feeding type (breastfeeding, formula, or solids), allergies, and medical history to generate individualized daily meal plans and feeding schedules. Plans update dynamically as the child grows, ensuring continuous alignment with evolving nutritional requirements at each developmental stage from birth to 24 months.</p>
+        </div>
+        <div class="obj-card">
+          <div class="obj-num">02</div>
+          <h3>Growth Monitoring & Prediction</h3>
+          <p>Implement real-time growth tracking that benchmarks the infant's weight, height, and BMI against WHO child growth standards and percentile curves. Develop predictive models capable of identifying deviations from healthy growth trajectories early, allowing timely corrective interventions before clinical complications arise in vulnerable infants and toddlers.</p>
+        </div>
+        <div class="obj-card">
+          <div class="obj-num">03</div>
+          <h3>Nutrient Deficiency Detection</h3>
+          <p>Build ML classification models to identify potential deficiencies in critical nutrients including iron, calcium, protein, and vitamins based on dietary input and growth indicators. Generate targeted, food-first corrective recommendations aligned with locally available and culturally appropriate ingredients, reducing reliance on pharmaceutical supplementation where possible.</p>
+        </div>
+        <div class="obj-card">
+          <div class="obj-num">04</div>
+          <h3>IoT Hardware Integration</h3>
+          <p>Integrate wearable IoT sensors (ESP32 microcontroller, MAX30102 SpO₂/pulse oximeter, AD8232 ECG sensor, DS18B20 temperature sensor) to enable real-time collection of physiological data — heart rate, oxygen saturation, and body temperature — providing a continuous health monitoring layer that enriches the AI model's predictive accuracy and parental alerts.</p>
+        </div>
+        <div class="obj-card">
+          <div class="obj-num">05</div>
+          <h3>AI Chatbot & Parental Interface</h3>
+          <p>Create an intuitive, multilingual web and mobile interface featuring growth dashboards, feeding timelines, and an AI-powered conversational chatbot for instant parental queries. The platform prioritizes usability for users with varying levels of digital literacy, with offline functionality ensuring accessibility in low-connectivity rural areas across developing regions.</p>
+        </div>
+        <div class="obj-card">
+          <div class="obj-num">06</div>
+          <h3>Cultural & Regional Adaptation</h3>
+          <p>Integrate local and seasonal food databases to suggest culturally relevant, regionally available food options that align with the family's dietary practices and economic context. The system adapts recipe suggestions based on geographic location, seasonal availability, and cultural dietary patterns to ensure adherence and maximize practical impact for diverse communities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section id="results" class="section dark-bg">
+    <div class="container">
+      <div class="section-label light">04 / Results</div>
+      <h2 class="section-title light">Simulation Results &<br/>System Outcomes</h2>
+      <p class="section-intro light">Our project has produced measurable, demonstrable results across both the software AI/ML components and the hardware IoT monitoring system. The following outputs validate the technical feasibility and effectiveness of the Smart Nutrition Planner in real-world conditions, providing a solid foundation for Phase II development and clinical integration.</p>
+
+      <div class="results-tabs">
+        <div class="tab-buttons">
+          <button class="tab-btn active" onclick="showTab('dashboard')">App Dashboard</button>
+          <button class="tab-btn" onclick="showTab('vitals')">Live Vitals</button>
+          <button class="tab-btn" onclick="showTab('charts')">Data Charts</button>
+          <button class="tab-btn" onclick="showTab('model')">Neural Network</button>
+        </div>
+
+        <div id="tab-dashboard" class="tab-content active">
+          <div class="tab-inner">
+            <div class="tab-text">
+              <h3>Personalized Nutrition Dashboard</h3>
+              <p>The application dashboard displays real-time nutritional status for the registered infant profile. For test subject "Lokesh" (4 months, 4 kg, 40 cm), the system correctly identifies calorie and protein levels below recommended thresholds, while calcium, iron, and fat levels fall within acceptable ranges for the age group.</p>
+              <ul class="result-points">
+                <li>📊 Color-coded progress bars for 5 key nutrients (calories, protein, calcium, iron, fats)</li>
+                <li>🍽️ Four-meal daily plan generation (Breakfast, Lunch, Snack, Dinner) with kcal and protein targets</li>
+                <li>⚠️ Automatic alert flags for deficiencies detected in real time</li>
+                <li>❤️ Heart rate and temperature display from IoT sensor feed</li>
+                <li>📈 Dynamic updating as new feeding data is entered by the caregiver</li>
+              </ul>
+            </div>
+            <div class="tab-img-wrap">
+              <img src="images/app_screenshot.png" alt="App Dashboard" class="result-img"/>
+            </div>
+          </div>
+        </div>
+
+        <div id="tab-vitals" class="tab-content">
+          <div class="tab-inner">
+            <div class="tab-text">
+              <h3>Real-Time IoT Health Monitoring</h3>
+              <p>The hardware system — built around an ESP32 microcontroller with MAX30102 and AD8232 sensor modules — successfully streams live physiological readings to the web dashboard. Timestamped data entries confirm stable sensor performance across multiple sessions, providing continuous health context that enriches the nutrition model's recommendations.</p>
+              <ul class="result-points">
+                <li>💓 Heart rate readings captured between 60–120 bpm across test sessions</li>
+                <li>🌡️ Body temperature measured accurately in the 36.0°C–37.8°C range</li>
+                <li>🫁 Blood oxygen saturation (SpO₂) consistently measured between 95–98%</li>
+                <li>📡 Real-time data transmission via ESP32 Wi-Fi to cloud dashboard</li>
+                <li>🕐 Timestamped logging enables longitudinal health trend analysis</li>
+              </ul>
+            </div>
+            <div class="tab-img-wrap">
+              <img src="images/live_readings.png" alt="Live Readings" class="result-img"/>
+            </div>
+          </div>
+        </div>
+
+        <div id="tab-charts" class="tab-content">
+          <div class="tab-inner">
+            <div class="tab-text">
+              <h3>Multi-Sensor Data Visualization</h3>
+              <p>Real-time charts generated by the dashboard display heart rate, body temperature, and SpO₂ trends over time, providing visual patterns for health assessment. The multi-line charts clearly separate the three parameters, enabling parents and healthcare providers to spot anomalies and correlate physiological events with feeding schedules or nutrition changes.</p>
+              <ul class="result-points">
+                <li>📈 Heart rate (red) shows expected variability between 60–120 bpm for infants</li>
+                <li>🌡️ Temperature (green) remains stable around 36–38°C across monitoring sessions</li>
+                <li>💙 SpO₂ (blue) consistently stable at 95–98%, confirming sensor accuracy</li>
+                <li>🔄 Charts update dynamically with each new data point from IoT hardware</li>
+                <li>📅 X-axis timestamps enable correlation with specific meal times and events</li>
+              </ul>
+            </div>
+            <div class="tab-img-wrap charts-wrap">
+              <img src="images/chart2.png" alt="Chart 1" class="result-img"/>
+              <img src="images/chart3.png" alt="Chart 2" class="result-img"/>
+            </div>
+          </div>
+        </div>
+
+        <div id="tab-model" class="tab-content">
+          <div class="tab-inner">
+            <div class="tab-text">
+              <h3>Deep Learning Model Architecture</h3>
+              <p>The core AI prediction model is a deep feedforward neural network implemented in Keras/TensorFlow. The architecture uses a symmetric expansion-contraction pattern (32→64→128→256→128→64→32→1) with 8 fully connected Dense layers, enabling it to capture complex nonlinear relationships between infant health parameters and nutritional outcomes with high predictive accuracy.</p>
+              <ul class="result-points">
+                <li>🧠 8 Dense layers with 260,837 total parameters (86,945 trainable)</li>
+                <li>📐 Bottleneck architecture: expands to 256 neurons, contracts to single output</li>
+                <li>🎯 Single output neuron for regression (nutrition score) or binary classification</li>
+                <li>⚡ Model size: ~1,018 KB — lightweight enough for mobile deployment</li>
+                <li>🔁 Trained on WHO growth datasets, Kaggle nutrition data, and pediatric literature</li>
+              </ul>
+            </div>
+            <div class="tab-img-wrap">
+              <img src="images/chart1.png" alt="Model Summary" class="result-img"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="section alt-bg">
+    <div class="container">
+      <div class="section-label">05 / Achievements</div>
+      <h2 class="section-title">Key Achievements &<br/>Project Milestones</h2>
+      <p class="section-intro">Over the course of Phase I development, our team has successfully delivered a comprehensive set of technical, academic, and hardware milestones. These achievements demonstrate strong progress toward a fully functional, AI-powered infant nutrition platform ready for Phase II clinical testing and deployment.</p>
+
+      <div class="timeline">
+        <div class="tl-item left">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-phase">Phase I · Week 1–4</div>
+            <h3>Research & Architecture</h3>
+            <p>Completed a thorough literature survey of 6+ peer-reviewed AI/ML nutrition studies. Defined the system architecture with client-server-database layers. Finalized the full technology stack — React.js frontend, Python Flask backend, MongoDB database, and Keras/TensorFlow ML pipeline. Identified all hardware components and confirmed feasibility within the ₹1,800 budget.</p>
+          </div>
+        </div>
+        <div class="tl-item right">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-phase">Phase I · Week 5–8</div>
+            <h3>Hardware Assembly & Sensor Integration</h3>
+            <p>Successfully assembled the IoT monitoring wristband using ESP32, MAX30102 SpO₂ sensor, AD8232 ECG module, and DS18B20 temperature sensor on a custom PCB. Verified stable sensor readings across multiple test sessions with heart rate, temperature, and SpO₂ data accurately captured and transmitted via Wi-Fi to the web dashboard in real time.</p>
+          </div>
+        </div>
+        <div class="tl-item left">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-phase">Phase I · Week 9–11</div>
+            <h3>AI Model Development & Training</h3>
+            <p>Built and trained an 8-layer deep feedforward neural network with 260,837 parameters using Keras Sequential API. Model trained on WHO child growth standards and Kaggle nutrition datasets. Achieved a symmetric expansion-contraction architecture (32→256→1) capable of predicting nutritional scores with strong nonlinear feature learning across infant health parameters.</p>
+          </div>
+        </div>
+        <div class="tl-item right">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-phase">Phase I · Week 11–13</div>
+            <h3>Web Application & Dashboard Launch</h3>
+            <p>Developed and deployed the personalized nutrition dashboard featuring real-time nutrition status bars, daily meal plan generation across four meal slots, deficiency alert system, and live IoT sensor data display. Successfully validated end-to-end data flow from ESP32 hardware through the REST API backend to the React.js frontend dashboard interface.</p>
+          </div>
+        </div>
+        <div class="tl-item left">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-phase">Phase I · Week 14–15</div>
+            <h3>Project Report & Documentation</h3>
+            <p>Completed the comprehensive Phase I project report (36 pages) including abstract, literature review, system architecture, hardware schematic, results and discussion, and full bibliography. Report submitted to GES's R.H. Sapat College of Engineering under the guidance of Dr. R.K. Pathak and approved by the Department of Electronics & Telecommunication Engineering.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tech-stack">
+        <div class="ts-label">Technology Stack Used</div>
+        <div class="ts-tags">
+          <span>Python</span><span>TensorFlow/Keras</span><span>React.js</span><span>Flask</span>
+          <span>MongoDB</span><span>ESP32</span><span>MAX30102</span><span>AD8232</span>
+          <span>Firebase</span><span>Chart.js</span><span>Scikit-learn</span><span>NumPy/Pandas</span>
+          <span>REST APIs</span><span>WHO Datasets</span><span>Kaggle</span><span>Git/GitHub</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONCLUSION -->
+  <section id="conclusion" class="section dark-bg">
+    <div class="container">
+      <div class="section-label light">06 / Conclusion</div>
+      <h2 class="section-title light">Conclusion &<br/>Future Scope</h2>
+      <div class="conclusion-grid">
+        <div class="conclusion-text">
+          <p>The <strong>AI/ML-Based Smart Nutrition Planner for Infants (0–2 Years)</strong> successfully demonstrates how Artificial Intelligence and Machine Learning can be meaningfully applied to one of healthcare's most critical but underserved domains — infant nutrition during the first 1,000 days of life.</p>
+          <p>By analyzing key parameters including age, weight, height, feeding method, allergies, and real-time physiological data from IoT sensors, our system generates personalized, adaptive dietary recommendations aligned with WHO child growth standards. The platform bridges the gap between generic, static nutrition advice and truly data-driven, individualized infant care.</p>
+          <p>Phase I has established a strong technical foundation: a trained 8-layer deep neural network, a functional IoT sensor system, a live dashboard with real-time nutrition tracking, and a validated end-to-end data pipeline. The system's growth tracking, nutrient deficiency prediction, and AI-assisted meal planning modules are all operational and producing meaningful, pediatrically sound outputs.</p>
+          <p>This project contributes toward preventive digital healthcare for early childhood, with the potential to significantly reduce malnutrition rates and growth-related disorders in underserved communities. By combining cutting-edge AI technology with pediatric nutrition science, the Smart Nutrition Planner offers a scalable, affordable, and accessible solution for every parent — regardless of location or economic circumstance.</p>
+
+          <div class="future-scope">
+            <div class="fs-title">Future Scope</div>
+            <ul>
+              <li>Integration with wearable health bands for continuous 24/7 infant monitoring</li>
+              <li>Telehealth features enabling direct pediatrician consultation via the platform</li>
+              <li>Advanced LSTM-based models for longitudinal growth trajectory prediction</li>
+              <li>Multilingual voice assistant support for low-literacy caregivers in rural areas</li>
+              <li>Expansion to children aged 2–5 years for broader early childhood nutrition coverage</li>
+              <li>Community health worker dashboard for population-level nutrition analytics</li>
+            </ul>
+          </div>
+        </div>
+        <div class="conclusion-quote">
+          <blockquote>
+            "Every child deserves the healthiest start in life — regardless of location, culture, or access to healthcare. Technology can make that possible."
+          </blockquote>
+          <div class="quote-source">— Project Vision Statement</div>
+
+          <div class="guide-card">
+            <div class="gc-title">Project Supervised By</div>
+            <div class="gc-name">Dr. Ranjeet Kumar Pathak</div>
+            <div class="gc-role">Project Guide</div>
+            <div class="gc-dept">Department of Electronics & Telecommunication Engineering</div>
+            <div class="gc-college">GES's R.H. Sapat College of Engineering, Nashik</div>
+            <div class="gc-year">Academic Year: 2025–26</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-label">07 / Contact</div>
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-intro">Interested in the project, collaboration, or have questions about our research? Reach out to any of the team members below.</p>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="cc-avatar">ML</div>
+          <div class="cc-name">Mandage Lokesh Sudeep</div>
+          <div class="cc-role">Team Member · AI/ML Development</div>
+          <div class="cc-dept">Electronics & Telecommunication Engineering</div>
+          <div class="cc-college">GES's R.H. Sapat College of Engineering, Nashik</div>
+        </div>
+        <div class="contact-card">
+          <div class="cc-avatar">BG</div>
+          <div class="cc-name">Bhadange Gayatri Somnath</div>
+          <div class="cc-role">Team Member · Frontend & Data</div>
+          <div class="cc-dept">Electronics & Telecommunication Engineering</div>
+          <div class="cc-college">GES's R.H. Sapat College of Engineering, Nashik</div>
+        </div>
+        <div class="contact-card">
+          <div class="cc-avatar">PE</div>
+          <div class="cc-name">Patil Eshan Gulabrao</div>
+          <div class="cc-role">Team Member · IoT Hardware</div>
+          <div class="cc-dept">Electronics & Telecommunication Engineering</div>
+          <div class="cc-college">GES's R.H. Sapat College of Engineering, Nashik</div>
+        </div>
+      </div>
+
+      <div class="contact-institution">
+        <div class="ci-logo">🎓</div>
+        <div class="ci-info">
+          <div class="ci-name">GES's R.H. Sapat College of Engineering, Management Studies and Research</div>
+          <div class="ci-addr">Nashik-5, Maharashtra, India</div>
+          <div class="ci-dept">Department of Electronics & Telecommunication Engineering</div>
+          <div class="ci-univ">Affiliated to Savitribai Phule Pune University, Pune</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">🍼 BabyNutri<span>AI</span></div>
+      <div class="footer-copy">© 2025–26 Mandage Lokesh · Bhadange Gayatri · Patil Eshan · All Rights Reserved</div>
+      <div class="footer-nav">
+        <a href="#home">Home</a>
+        <a href="#introduction">Intro</a>
+        <a href="#results">Results</a>
+        <a href="#conclusion">Conclusion</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
